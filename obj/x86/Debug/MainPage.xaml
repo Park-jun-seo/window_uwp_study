@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid Margin="0,10,10,-10">
+            <Border BorderThickness="1" BorderBrush="Black" Margin="61,87,899,61">
+                <ComboBox x:ConnectionId='3' x:Name="combo1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="35,39,35,648"                                              SelectionChangedTrigger="Always" FontSize="20" Background="{ThemeResource AppBarItemPointerOverBackgroundThemeBrush}"/>
+            </Border>
+            <TextBlock x:ConnectionId='2' x:Name="textbliock" HorizontalAlignment="Left" Margin="642,87,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="207" Width="776" FontSize="48"                                              />
+        </Grid>
+    </Grid>
+</Page>
+
